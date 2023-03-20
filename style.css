@@ -163,7 +163,7 @@ header nav{
     flex-direction: row;
 }
 
-#product-presnsentation{
+.product-presnsentation{
     width: 100%;
     flex-shrink: 3;
 }
@@ -175,13 +175,13 @@ h1{
     margin: 10px 0;
 }
 
-#product-presnsentation p{
+.product-presnsentation p{
     font-weight: 200;
     font-family: bebas-neue-pro-expanded, sans-serif;
     margin: 10px 0;
 }
 
-#product-presnsentation button{
+.product-presnsentation button{
     margin-top: 20px;
     padding: 15px 20px;
     font-size: 15px;
@@ -194,7 +194,7 @@ h1{
     transition: color 0.5s, background-color 0.5s;
 }
 
-#product-presnsentation button:hover{
+.product-presnsentation button:hover{
     background-color: white;
     color: var(--red);
 }
@@ -224,6 +224,6 @@ h1{
     object-fit: cover;
 }
 
-#grandeImage img{
+.grandeImage img{
     width: 100%;
 }
