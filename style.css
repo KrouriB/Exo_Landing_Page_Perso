@@ -236,6 +236,10 @@ h1{
     display: flex;
 }
 
+#second .product-presnsentation{
+    max-width: 80%;
+}
+
 #new{
     color: var(--red);
 }
@@ -255,6 +259,9 @@ h1{
 #second figure{
     overflow: hidden;
     height: 33vh;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
 }
 
 #second img{
