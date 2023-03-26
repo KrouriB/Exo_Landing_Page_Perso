@@ -224,6 +224,40 @@ h1{
     object-fit: cover;
 }
 
-.grandeImage img{
+#first .grandeImage img{
     width: 100%;
+}
+
+/* main */
+
+#second{
+    margin: 0;
+    background-color: #0a0000;
+    display: flex;
+}
+
+#new{
+    color: var(--red);
+}
+
+#second button{
+    background-color: inherit;
+    border: 1px solid var(--red);
+    color: var(--red);
+    transition: 0.5s;
+}
+
+#second button:hover{
+    background-color: var(--red);
+    color: white;
+}
+
+#second figure{
+    overflow: hidden;
+    height: 33vh;
+}
+
+#second img{
+    object-fit: cover;
+    height: 100%;
 }

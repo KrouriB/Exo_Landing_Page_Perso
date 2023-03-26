@@ -68,7 +68,11 @@
         height: 280px;
     }
 
-    #grandeImage{
+    #first .grandeImage{
         display: none;
     }
+
+	#second{
+		flex-direction: column;
+	}
 }
