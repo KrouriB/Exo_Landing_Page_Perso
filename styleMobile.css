@@ -68,12 +68,12 @@
         height: 280px;
     }
 
-    #first .grandeImage{
-        display: none;
+    .grandeImage{
+        display: none
     }
 
-	#second{
-		flex-direction: column;
+	#second .grandeImage{
+		display: none
 	}
 
 	#second .product-presnsentation{
