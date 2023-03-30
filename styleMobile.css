@@ -79,4 +79,13 @@
 	#second .product-presnsentation{
 		max-width: 100%;
 	}
+
+	footer{
+		justify-content: center;
+	}
+
+	.column{
+		width: 80%;
+		margin: 10% 0;
+	}
 }

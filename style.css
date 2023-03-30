@@ -268,3 +268,30 @@ h1{
     object-fit: cover;
     height: 100%;
 }
+footer{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 3% 0;
+}
+
+.column h3{
+    color: var(--red);
+}
+
+.linkColumn{
+    text-decoration: none;
+    color: gray;
+    transition: 0.3s;
+}
+
+.linkColumn:hover{
+    color: white;
+}
